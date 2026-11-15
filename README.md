@@ -1,4 +1,4 @@
-# ASUS Charge Switch Ã¢â‚¬â€ Windows Battery Charge Limit App
+# ASUS Charge Switch Windows Battery Charge Limit App
 
 ![ASUS Charge Switch: 80% and 100% battery charging](ASUS%20Charge%20Icon.png)
 
