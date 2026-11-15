@@ -8,7 +8,7 @@ class ChargeApp : Form {
  [DllImport("kernel32.dll",CharSet=CharSet.Unicode,SetLastError=true)] static extern SafeFileHandle CreateFile(string n,uint a,uint s,IntPtr sec,uint c,uint f,IntPtr t);
  [DllImport("kernel32.dll",SetLastError=true)] static extern bool DeviceIoControl(SafeFileHandle h,uint c,byte[] i,uint il,byte[] o,uint ol,out uint r,IntPtr p);
  Label status = new Label();
- public ChargeApp(){ Text="ASUS Charge Switch"; ClientSize=new Size(430,285); FormBorderStyle=FormBorderStyle.FixedDialog; MaximizeBox=false; StartPosition=FormStartPosition.CenterScreen; Font=new Font("Segoe UI",10);
+ public ChargeApp(){ Icon=Icon.ExtractAssociatedIcon(Application.ExecutablePath); Text="ASUS Charge Switch"; ClientSize=new Size(430,285); FormBorderStyle=FormBorderStyle.FixedDialog; MaximizeBox=false; StartPosition=FormStartPosition.CenterScreen; Font=new Font("Segoe UI",10);
  var title=new Label {Text="Choose your charging limit",Location=new Point(22,20),AutoSize=true,Font=new Font("Segoe UI",15,FontStyle.Bold)}; Controls.Add(title);
  status.SetBounds(22,62,385,55);status.Text="Select a mode to apply it. No change is made on launch.";Controls.Add(status);
  AddButton("Smart charging ON - 80%",122,80);AddButton("Smart charging OFF - 100%",170,100);
@@ -24,3 +24,4 @@ class ChargeApp : Form {
  }}catch(Exception ex){status.Text="Setting could not be applied.";MessageBox.Show(this,ex.Message,"Charging control",MessageBoxButtons.OK,MessageBoxIcon.Warning);}}
  [STAThread] static void Main(){Application.EnableVisualStyles();Application.SetCompatibleTextRenderingDefault(false);Application.Run(new ChargeApp());}
 }
+
