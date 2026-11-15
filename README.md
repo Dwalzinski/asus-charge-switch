@@ -1,4 +1,4 @@
-# ASUS Charge Switch â€” Windows Battery Charge Limit App
+# ASUS Charge Switch Ã¢â‚¬â€ Windows Battery Charge Limit App
 
 ![ASUS Charge Switch: 80% and 100% battery charging](ASUS%20Charge%20Icon.png)
 
@@ -16,8 +16,8 @@ A small Windows desktop app for switching a compatible ASUS laptop's battery cha
 
 1. Download the EXE and place it in a folder or on your desktop.
 2. Run it and accept the Windows administrator prompt.
-3. Choose **Smart charging ON â€” 80%** to request the battery protection limit.
-4. Choose **Smart charging OFF â€” 100%** to allow a full charge.
+3. Choose **Smart charging ON Ã¢â‚¬â€ 80%** to request the battery protection limit.
+4. Choose **Smart charging OFF Ã¢â‚¬â€ 100%** to allow a full charge.
 5. Return to 80% manually when finished.
 
 Opening the app alone does not change the charging limit. The app reports whether the ASUS firmware accepted the request; this is not proof that the battery has reached the requested percentage.
