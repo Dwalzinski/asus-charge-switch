@@ -1,6 +1,6 @@
 # ASUS Charge Switch Windows Battery Charge Limit App
 
-![ASUS Charge Switch: 80% and 100% battery charging](ASUS%20Charge%20Icon.png)
+<img src="ASUS%20Charge%20Icon.png" alt="ASUS Charge Switch: 80% and 100% battery charging" width="25%">
 
 A small Windows desktop app for switching a compatible ASUS laptop's battery charge limit between **80%** and **100%**. Enable the 80% limit for everyday use, or allow a full charge before travelling.
 
